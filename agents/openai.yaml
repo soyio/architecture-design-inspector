@@ -1,0 +1,4 @@
+interface:
+  display_name: "概要设计检查助手"
+  short_description: "检查概要设计的结构性、全局性内容，在原文对应位置添加中文批注，输出带批注的 Word 副本"
+  default_prompt: "请使用 $architecture-design-inspector 检查提供的概要设计，重点检查结构性、全局性内容，不限定章节结构；在原 Word 文档的对应位置添加简明中文批注，批注作者为“概要设计检查助手”，保留原文与已有批注，并输出带批注的 Word 副本。"
